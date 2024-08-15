@@ -13,7 +13,7 @@ public class Spawner : MonoBehaviour
     private readonly SpeedDateClient _client = new SpeedDateClient();
     public string MachineIpAddress = IPAddress.Loopback.ToString();
     //public string PathToGameServerExecutable = @"C:\gameserver.exe";
-    public string PathToGameServerExecutable = @"C:\D:\GitHub\NodeJS\barebones-masterserver\SpeedDate\SpeedDate.Server.Console\bin\Debug\net7.0\SpeedDate.Server.Console.exe";
+    public string PathToGameServerExecutable = @"D:\GitHub\NodeJS\barebones-masterserver\SpeedDate\SpeedDate.Server.Console\bin\Debug\net7.0\SpeedDate.Server.Console.exe";
 
     public string MasterIpAddress = IPAddress.Loopback.ToString();
     public int MasterPort = 60125;
