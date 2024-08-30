@@ -31,6 +31,11 @@ namespace Barebones.MasterServer
             _items = new GenericUIList<GameInfoPacket>(ItemPrefab.gameObject, LayoutGroup);
         }
 
+        private void OnEnable()
+        {
+            OnRefreshClick();
+        }
+
         private void Start()
         {
             client = FindObjectOfType<Client>();
